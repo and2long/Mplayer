@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">媒体播放</string>
+
+    <string-array name="tabs_tittle">
+        <item>视频</item>
+        <item>音乐</item>
+    </string-array>
+
+</resources>

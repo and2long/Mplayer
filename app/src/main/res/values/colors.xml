@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#494A65</color>
+    <color name="colorPrimaryDark">#494A65</color>
+    <color name="colorAccent">#F9D55A</color>
+
+    <color name="colorSecondaryText">#757575</color>
+
+    <color name="bg_play">#404149</color>
+    <color name="tab_text">#9C9C9C</color>
+    <color name="text_duration">#a9a9a9</color>
+
+</resources>
