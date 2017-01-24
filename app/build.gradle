@@ -12,6 +12,20 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+    signingConfigs {//签名配置
+        release {//发布版签名配置
+            storeFile file("MPlayer.jks")//密钥文件路径
+            storePassword "and2long"//密钥文件密码
+            keyAlias "and2long"//key别名
+            keyPassword "and2long"//key密码
+        }
+        debug {//debug版签名配置
+            storeFile file("MPlayer.jks")
+            storePassword "and2long"
+            keyAlias "and2long"
+            keyPassword "and2long"
+        }
+    }
     buildTypes {
         release {
             minifyEnabled true
