@@ -118,6 +118,9 @@ public class AudioFragment extends Fragment implements ViewTreeObserver.OnGlobal
     }
 
     private void updateBottomControlLayout(int playPosition, boolean playState) {
+        if (audioInfos.isEmpty()) {
+            return;
+        }
         tvTitle.setText(audioInfos.get(playPosition).getTittle());
         ivPlay.setBackgroundResource(playState ?
                 R.drawable.ic_pause_circle_outline_selector : R.drawable.ic_play_circle_outline_selector);
